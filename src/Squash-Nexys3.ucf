@@ -1,0 +1,24 @@
+
+# Constraint file for Xilinx ISE.
+# Pin assignment for the Digilent Nexys3 board.
+
+NET "clk_i"          LOC = "V10";
+
+NET "btn_left_i"     LOC = "C4";
+NET "btn_center_i"   LOC = "B8";
+NET "btn_up_i"       LOC = "A8";
+NET "btn_down_i"     LOC = "C9";
+
+NET "vga_red_o<0>"   LOC = "U7";
+NET "vga_red_o<1>"   LOC = "V7";
+NET "vga_red_o<2>"   LOC = "N7";
+
+NET "vga_green_o<0>" LOC = "P8";
+NET "vga_green_o<1>" LOC = "T6";
+NET "vga_green_o<2>" LOC = "V6";
+
+NET "vga_blue_o<0>"  LOC = "R7";
+NET "vga_blue_o<1>"  LOC = "T7";
+
+NET "vga_hsync_n_o"  LOC = "N6";
+NET "vga_vsync_n_o"  LOC = "P7";
