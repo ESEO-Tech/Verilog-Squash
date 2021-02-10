@@ -1,12 +1,12 @@
 
 `define VGA_SCREEN_WIDTH        640
 `define VGA_SCREEN_HEIGHT       480
-`define VGA_FRONT_PORCH_WIDTH   19
-`define VGA_SYNC_WIDTH          97
-`define VGA_BACK_PORCH_WIDTH    44
-`define VGA_FRONT_PORCH_HEIGHT  13
-`define VGA_SYNC_HEIGHT         2
-`define VGA_BACK_PORCH_HEIGHT   30
+`define VGA_X_MAX               799
+`define VGA_Y_MAX               524
+`define VGA_HSYNC_MIN           659
+`define VGA_HSYNC_MAX           755
+`define VGA_VSYNC_MIN           493
+`define VGA_VSYNC_MAX           494
 
 `define PADDLE_X                512
 `define PADDLE_Y_INIT           (`VGA_SCREEN_HEIGHT - `PADDLE_HEIGHT) / 2
